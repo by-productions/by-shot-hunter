@@ -13,17 +13,18 @@ export default function HuntCard({ hunt, index, isFound, onToggle }) {
     >
       <div className="p-[18px] flex gap-3.5 items-start cursor-pointer" onClick={() => setExpanded(!expanded)}>
         <div
-          className="flex-shrink-0 w-11 h-11 rounded-xl flex items-center justify-center font-serif font-black text-[18px] transition-all duration-300"
+          className="flex-shrink-0 w-11 h-11 rounded-xl flex items-center justify-center font-display font-black text-[19px] transition-all duration-300"
           style={{
             background: isFound ? 'var(--accent)' : 'var(--bg-elevated)',
             color: isFound ? '#000' : 'var(--text-dim)',
+            letterSpacing: '-0.5px',
           }}
         >
           {index + 1}
         </div>
         <div className="flex-1 min-w-0">
-          <div className="flex justify-between items-start gap-2 mb-1">
-            <div className="font-serif font-bold text-[17px] leading-tight flex-1">{hunt.title}</div>
+          <div className="flex justify-between items-start gap-2 mb-1.5">
+            <div className="font-display font-black text-[17px] leading-tight flex-1" style={{ letterSpacing: '-0.5px' }}>{hunt.title}</div>
             <div
               className="flex-shrink-0 px-2 py-[3px] rounded-full text-[10px] font-bold font-mono tracking-wide"
               style={{

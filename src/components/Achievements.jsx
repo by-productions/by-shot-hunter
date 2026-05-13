@@ -27,8 +27,8 @@ export default function Achievements({ unlockedSet }) {
             >
               {ach.icon}
             </span>
-            <div className="font-serif font-bold text-[14px] mb-1 leading-tight">{ach.name}</div>
-            <div className="text-[11px] leading-tight font-light" style={{ color: 'var(--text-dim)' }}>{ach.desc}</div>
+            <div className="font-display font-black text-[14px] mb-1 leading-tight" style={{ letterSpacing: '-0.3px' }}>{ach.name}</div>
+            <div className="text-[11px] leading-snug font-light" style={{ color: 'var(--text-dim)' }}>{ach.desc}</div>
           </div>
         );
       })}

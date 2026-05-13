@@ -35,16 +35,18 @@ html {
 }
 
 body {
-  font-family: 'Heebo', sans-serif;
+  font-family: 'Rubik', system-ui, sans-serif;
   background: var(--bg);
   color: var(--text);
   direction: rtl;
   line-height: 1.5;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   user-select: none;
   -webkit-user-select: none;
   padding-bottom: calc(80px + var(--safe-bot));
+  font-feature-settings: "kern" 1, "ss01" 1;
 }
 
 @keyframes fadeUp {

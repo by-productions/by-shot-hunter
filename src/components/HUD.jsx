@@ -42,7 +42,7 @@ export default function HUD({ rank, xp, totalXP, foundCount, totalCount, nextRan
               animation: levelUp ? 'bounce 0.6s' : 'none',
             }}
           >
-            <div className="w-[18px] h-[18px] rounded-full bg-brand-pink text-black flex items-center justify-center text-[10px] font-black font-serif">
+            <div className="w-[18px] h-[18px] rounded-full bg-brand-pink text-black flex items-center justify-center text-[11px] font-black font-display">
               {rank.letter}
             </div>
             <div className="text-[10px] font-black tracking-[1.5px] uppercase font-mono">

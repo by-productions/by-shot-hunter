@@ -21,25 +21,25 @@ export default function Hero() {
           <span>SHOT HUNTER · MISSION</span>
         </div>
 
-        <h1 className="font-serif font-black mb-3 animate-fade-up" style={{ fontSize: 'clamp(40px, 13vw, 64px)', lineHeight: 0.95, letterSpacing: '-1.5px', animationDelay: '0.4s' }}>
+        <h1 className="font-display font-black mb-3 animate-fade-up" style={{ fontSize: 'clamp(44px, 14vw, 68px)', lineHeight: 0.92, letterSpacing: '-2px', animationDelay: '0.4s' }}>
           ערב טוב,<br />
           <span className="italic" style={{ color: 'var(--accent)' }}>צייד.</span>
         </h1>
 
-        <div className="font-black uppercase mb-6 animate-fade-up" style={{ fontSize: 'clamp(56px, 18vw, 88px)', lineHeight: 0.88, letterSpacing: '-2px', color: 'transparent', WebkitTextStroke: '1.5px white', animationDelay: '0.55s' }}>
+        <div className="font-black uppercase mb-6 animate-fade-up" style={{ fontSize: 'clamp(56px, 18vw, 88px)', lineHeight: 0.88, letterSpacing: '-3px', color: 'transparent', WebkitTextStroke: '1.5px white', animationDelay: '0.55s' }}>
           SHOT<br />
           <span style={{ color: 'var(--accent)', WebkitTextStroke: 0 }}>HUNTER</span>
         </div>
 
-        <p className="text-[15px] leading-snug mb-8 font-light animate-fade-up max-w-[320px]" style={{ color: 'var(--text-dim)', animationDelay: '0.7s' }}>
-          היום אתה לא צלם, אתה <strong className="text-white font-medium">צייד פריימים</strong>.<br />
-          8 שוטים. 4 דרגות. הצידה שלך — תג Master.
+        <p className="text-[15px] leading-relaxed mb-8 font-light animate-fade-up max-w-[320px]" style={{ color: 'var(--text-dim)', animationDelay: '0.7s' }}>
+          היום אתה לא צלם — אתה <strong className="text-white font-semibold">צייד פריימים</strong>.<br />
+          8 שוטים. 4 דרגות. בסוף הערב, אם תפסת הכל — תג <strong className="text-white font-semibold">Master</strong>.
         </p>
 
         <div className="grid grid-cols-3 gap-2 mb-8 animate-fade-up" style={{ animationDelay: '0.9s' }}>
           {[{ num: 8, label: 'שוטים' }, { num: 4, label: 'דרגות' }, { num: 6, label: 'תגים' }].map((s) => (
-            <div key={s.label} className="py-3.5 px-2 bg-bg-card rounded-xl text-center border" style={{ borderColor: 'var(--border)' }}>
-              <div className="font-serif font-black leading-none mb-1" style={{ fontSize: 28, color: 'var(--accent)' }}>{s.num}</div>
+            <div key={s.label} className="py-4 px-2 bg-bg-card rounded-xl text-center border" style={{ borderColor: 'var(--border)' }}>
+              <div className="font-display font-black leading-none mb-1.5" style={{ fontSize: 30, letterSpacing: '-1.5px', color: 'var(--accent)' }}>{s.num}</div>
               <div className="text-[9px] tracking-[1.5px] uppercase font-mono" style={{ color: 'var(--text-faint)' }}>{s.label}</div>
             </div>
           ))}

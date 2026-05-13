@@ -12,8 +12,8 @@ export default function Celebration({ open, emoji, title, desc, onClose }) {
         }}
       >
         <span className="text-[70px] mb-3 inline-block" style={{ animation: 'spin 1s ease' }}>{emoji}</span>
-        <h3 className="font-serif text-[26px] mb-2.5 leading-tight" style={{ color: 'var(--accent)' }}>{title}</h3>
-        <p className="mb-5 leading-snug text-[14px]" style={{ color: 'var(--text-dim)' }}>{desc}</p>
+        <h3 className="font-display font-black text-[26px] mb-3 leading-tight" style={{ color: 'var(--accent)', letterSpacing: '-1px' }}>{title}</h3>
+        <p className="mb-5 leading-relaxed text-[14px] font-light" style={{ color: 'var(--text-dim)' }}>{desc}</p>
         <button
           className="w-full py-3.5 rounded-xl font-black cursor-pointer text-[13px] tracking-[1.5px] uppercase font-mono active:scale-[0.97]"
           style={{ background: 'var(--accent)', color: '#000', border: 'none' }}

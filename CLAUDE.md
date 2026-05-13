@@ -14,7 +14,7 @@ Colors taken from by-p.com — black background, with three accent colors used c
 - `#d6ff3a` (lime/yellow) — XP, "Content"
 - `#3affd3` (mint/teal) — "Exhibitions"
 
-Typography: bold black uppercase English display (like "WHAT CAN WE DO FOR YOU" on by-p.com) combined with serif Hebrew (Frank Ruhl Libre) and sans-serif body (Heebo). Mono accents in JetBrains Mono.
+Typography: bold black uppercase English display (like "WHAT CAN WE DO FOR YOU" on by-p.com) combined with Hebrew in **Rubik** — used across the entire app for display (900) and body (400/500). Mono accents in JetBrains Mono.
 
 ## Stack
 

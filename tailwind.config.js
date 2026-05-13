@@ -17,8 +17,9 @@ export default {
         },
       },
       fontFamily: {
-        sans: ['Heebo', 'system-ui', 'sans-serif'],
-        serif: ['"Frank Ruhl Libre"', 'serif'],
+        sans: ['Rubik', 'system-ui', 'sans-serif'],
+        display: ['Rubik', 'system-ui', 'sans-serif'],
+        serif: ['Rubik', 'system-ui', 'sans-serif'],
         mono: ['"JetBrains Mono"', 'monospace'],
       },
     },
