@@ -40,7 +40,7 @@ export default function Hero() {
           {[{ num: 8, label: 'שוטים' }, { num: 4, label: 'דרגות' }, { num: 6, label: 'תגים' }].map((s) => (
             <div key={s.label} className="py-4 px-2 bg-bg-card rounded-xl text-center border" style={{ borderColor: 'var(--border)' }}>
               <div className="font-display font-black leading-none mb-1.5" style={{ fontSize: 30, letterSpacing: '-1.5px', color: 'var(--accent)' }}>{s.num}</div>
-              <div className="text-[9px] tracking-[1.5px] uppercase font-mono" style={{ color: 'var(--text-faint)' }}>{s.label}</div>
+              <div className="text-[10px] tracking-[0.5px] font-medium" style={{ color: 'var(--text-faint)' }}>{s.label}</div>
             </div>
           ))}
         </div>

@@ -40,7 +40,7 @@ export default function HuntCard({ hunt, index, isFound, onToggle }) {
       </div>
 
       <div
-        className="flex items-center justify-between py-2.5 px-[18px] border-t text-[11px] tracking-[1.5px] uppercase font-mono font-bold cursor-pointer"
+        className="flex items-center justify-between py-2.5 px-[18px] border-t text-[12px] tracking-[0.5px] font-medium cursor-pointer"
         style={{ borderTopColor: isFound ? 'rgba(255, 61, 122, 0.15)' : 'var(--border)', color: 'var(--text-faint)' }}
         onClick={() => setExpanded(!expanded)}
       >
@@ -62,7 +62,7 @@ export default function HuntCard({ hunt, index, isFound, onToggle }) {
       </div>
 
       <button
-        className="mx-[18px] mb-[18px] py-3.5 rounded-xl font-black text-[14px] tracking-[1px] uppercase cursor-pointer font-mono transition-all active:scale-[0.97] border block"
+        className="mx-[18px] mb-[18px] py-3.5 rounded-xl font-black text-[15px] tracking-[0.5px] cursor-pointer transition-all active:scale-[0.97] border block"
         style={{
           background: isFound ? 'transparent' : 'var(--accent)',
           color: isFound ? 'var(--accent)' : '#000',

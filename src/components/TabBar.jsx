@@ -46,7 +46,7 @@ export default function TabBar({ huntsBadge }) {
             }}
           >
             <span className="text-[22px] mb-1 block leading-none">{tab.icon}</span>
-            <span className="text-[10px] font-bold tracking-[1px] uppercase font-mono">{tab.label}</span>
+            <span className="text-[11px] font-bold tracking-[0.5px]">{tab.label}</span>
             {tab.showBadge && huntsBadge > 0 && (
               <span
                 className="absolute top-1 min-w-[16px] h-4 px-1 rounded-lg text-[9px] font-black flex items-center justify-center font-mono border-2 border-black"

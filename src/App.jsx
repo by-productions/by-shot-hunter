@@ -82,7 +82,7 @@ export default function App() {
   if (loading) {
     return (
       <div className="flex items-center justify-center min-h-screen">
-        <div className="text-[#6a6a6a] text-sm font-mono">טוען...</div>
+        <div className="text-[#6a6a6a] text-sm font-medium">טוען...</div>
       </div>
     );
   }
@@ -193,7 +193,7 @@ function SectionHeader({ num, label }) {
       <span className="font-mono text-[11px] font-bold tracking-[2px]" style={{ color: 'var(--accent)' }}>{num}</span>
       <span className="h-px w-6" style={{ background: 'var(--accent)' }} />
       <span className="flex-grow h-px" style={{ background: 'var(--border)' }} />
-      <span className="text-[10px] tracking-[2.5px] uppercase font-mono" style={{ color: 'var(--text-faint)' }}>{label}</span>
+      <span className="text-[11px] tracking-[0.5px] font-medium" style={{ color: 'var(--text-faint)' }}>{label}</span>
     </div>
   );
 }

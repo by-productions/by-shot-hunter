@@ -15,7 +15,7 @@ export default function Celebration({ open, emoji, title, desc, onClose }) {
         <h3 className="font-display font-black text-[26px] mb-3 leading-tight" style={{ color: 'var(--accent)', letterSpacing: '-1px' }}>{title}</h3>
         <p className="mb-5 leading-relaxed text-[14px] font-light" style={{ color: 'var(--text-dim)' }}>{desc}</p>
         <button
-          className="w-full py-3.5 rounded-xl font-black cursor-pointer text-[13px] tracking-[1.5px] uppercase font-mono active:scale-[0.97]"
+          className="w-full py-3.5 rounded-xl font-black cursor-pointer text-[14px] tracking-[0.5px] active:scale-[0.97]"
           style={{ background: 'var(--accent)', color: '#000', border: 'none' }}
           onClick={onClose}
         >

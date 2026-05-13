@@ -76,7 +76,7 @@ export default function HUD({ rank, xp, totalXP, foundCount, totalCount, nextRan
           }}
         />
       </div>
-      <div className="flex justify-between font-mono text-[9px] tracking-[1px] text-[#6a6a6a] mt-1">
+      <div className="flex justify-between text-[10px] tracking-[0.3px] text-[#6a6a6a] mt-1.5 font-medium" style={{ fontVariantNumeric: 'tabular-nums' }}>
         <span>
           <b className="text-brand-pink font-bold">{foundCount}</b>/{totalCount} שוטים
         </span>
