@@ -142,7 +142,7 @@ export default function App() {
         <section className="py-8 px-5">
           <SectionHeader num="04" label="חוקי המשחק" />
           <h2 className="font-display font-black text-[30px] md:text-[40px] leading-[1.02] mb-5" style={{ letterSpacing: '-1.5px' }}>
-            4 דברים <em className="italic font-black" style={{ color: 'var(--accent)' }}>שיורידו</em> את הציון.
+            3 דברים <em className="italic font-black" style={{ color: 'var(--accent)' }}>שיורידו</em> את הציון.
           </h2>
           <p className="text-[15px] leading-relaxed font-light mb-6" style={{ color: 'var(--text-dim)' }}>
             לא הוראות. רק כאבי לב מאירועים קודמים.
@@ -151,8 +151,7 @@ export default function App() {
             {[
               { num: '01', text: 'להשאיר זנבות לשוטים.', why: 'שנייה-שתיים מיותרות לפני ואחרי — אוויר לעריכה.' },
               { num: '02', text: 'לא לקטוע באמצע משפט.', why: 'גם כשנדמה שהוא סיים — תמתין עוד שנייה. תמיד יש עוד מילה.' },
-              { num: '03', text: 'תקריב של אנשים — רק עם אישור.', why: 'פנים מזוהות = אישור לפרסום. אם אין, עדיף פריים שלא ניתן לזהות.' },
-              { num: '04', text: 'תמיד שיהיה משהו מעוצב בפריים.', why: 'שוט של אנשים בלי רקע ממותג — לא נכנס לסרט. עם המיתוג מאחור — חומר זהב.' },
+              { num: '03', text: 'תמיד שיהיה משהו מעוצב בפריים.', why: 'שוט של אנשים בלי רקע ממותג — לא נכנס לסרט. עם המיתוג מאחור — חומר זהב.' },
             ].map((item, i, arr) => (
               <div key={item.num} className="flex gap-4 py-4 border-b" style={{ borderBottomColor: i === arr.length - 1 ? 'transparent' : 'var(--border)' }}>
                 <div className="font-mono text-[11px] font-bold min-w-[24px] pt-[3px] tracking-[1px]" style={{ color: 'var(--accent2)' }}>{item.num}</div>

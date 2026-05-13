@@ -31,9 +31,9 @@ export default function HUD({ rank, xp, totalXP, foundCount, totalCount, nextRan
     >
       <div className="flex justify-between items-center mb-2">
         <div className="flex items-center gap-2.5 min-w-0">
-          <div className="text-[11px] font-black tracking-[2px] text-[#b0b0b0]">
-            B<span className="text-brand-pink">.</span>Y
-          </div>
+          <a href="https://www.by-p.com/" target="_blank" rel="noopener noreferrer" className="shrink-0 flex items-center" aria-label="B.Y Productions">
+            <img src="/by-logo.webp" alt="B.Y Productions" className="h-6 w-auto" style={{ filter: 'drop-shadow(0 1px 2px rgba(0,0,0,0.4))' }} />
+          </a>
           <div
             className="flex items-center gap-1.5 px-2.5 py-1 bg-bg-elevated rounded-full transition-all duration-300 border"
             style={{

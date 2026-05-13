@@ -121,7 +121,7 @@ For custom domain, point to Vercel's nameservers. B.Y could use `hunter.by-p.com
 
 - **Brand colors** — these are pulled directly from by-p.com, don't substitute
 - **The "ערב טוב, צייד" headline** — this took several iterations to land on
-- **The 4 "Avoid" rules** — these are real pain points the producer wants emphasized
+- **The "Avoid" rules** (currently 3) — these are real pain points the producer wants emphasized
 - **The relationship between this app and the on-site producer** — the app is *supplementary*. The producer has the authoritative event-specific list. This app provides general guidance + gamification. Don't add features that conflict with this.
 
 ## Original conversation context
